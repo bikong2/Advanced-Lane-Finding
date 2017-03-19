@@ -41,25 +41,31 @@ Calibrated camera data is saved in file 'calibration_pickle.p'
 
 I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result:
 
-![Original Image](output_images/calibration1.jpg)
+<img src="output_images/calibration1.jpg" width="250" />
+Original Image
 
-![Undistorted Image](output_images/result1.jpg)
+<img src="output_images/result1.jpg" width="250" />
+Undistorted Image
 
 ### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
 
-![Original Image](output_images/test2.jpg)
+<img src="output_images/test2.jpg" width="500" />
+Original Image
 
-![Undistorted Image](output_images/result2.jpg)
+<img src="output_images/result2.jpg" width="500" />
+Undistorted Image
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines 13-22, 24-33, 35-43, 45-58, 73-77 in `image_gen.py`).  Here's an example of my output for this step:
 
-![Original Image](output_images/test3.jpg)
+<img src="output_images/test3.jpg" width="500" />
+Original Image
 
-![Undistorted Image](output_images/result3.jpg)
+<img src="output_images/result3.jpg" width="500" />
+Undistorted Image
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
@@ -85,21 +91,24 @@ I didn't have the saved test image to verify that my perspective transform was w
 
 But I will show you another view of the image that was at the stage before fitting the polynomial:
 
-![Original Image](output_images/test4.jpg)
+<img src="output_images/test4.jpg" width="500" />
+Original Image
 
-![Processed Image](output_images/result4.jpg)
+<img src="output_images/result4.jpg" width="500" />
+Processed Image
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this iin line 122-136, 156 of `image_gen.py`:
 
-![Original Image](output_images/test5.jpg)
+<img src="output_images/test5.jpg" width="500" />
+Original Image
 
-![Processed Image](output_images/result5.jpg)
+<img src="output_images/result5.jpg" width="500" />
 
-![Processed Image](output_images/result6.jpg)
+<img src="output_images/result6.jpg" width="500" />
 
-![Processed Image](output_images/result7.jpg)
+<img src="output_images/result7.jpg" width="500" />
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -109,9 +118,7 @@ I did this in lines 156-157 in my code in `image_gen.py`
 
 I implemented this step in lines 141-145, 165-166 in my code in `image_gen.py`.  Here is an example of my result on a test image:
 
-![Original Image](output_images/test5.jpg)
-
-![Processed Image](output_images/result8.jpg)
+<img src="output_images/result8.jpg" width="500" />
 
 ---
 
