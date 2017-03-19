@@ -119,8 +119,8 @@ I implemented this step in lines 141-145, 165-166 in my code in `image_gen.py`. 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./video/project_video_output.mp4)
+Here's my [video result](https://youtu.be/QY7mWZAL248)
 
-Challenge video result. [Don't open it](./video/challenge_video_output.mp4)
+Challenge video result. [Don't open it](https://youtu.be/uJKOsHahDIk)
 
-Harder challenge video result. [Actually, a little better](./video/harder_challenge_video_output.mp4)
+Harder challenge video result. [Actually, a little better](https://youtu.be/abcd-zN1xEU)
