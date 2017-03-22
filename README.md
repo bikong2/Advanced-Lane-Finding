@@ -1,4 +1,4 @@
-## Advanced Lane Finding Project
+# **Advanced Lane Finding**
 
 The goals / steps of this project are the following:
 
@@ -10,14 +10,11 @@ The goals / steps of this project are the following:
 * Determine the curvature of the lane and vehicle position with respect to center.
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+---
 
-### Writeup / README
+#### 1. There are four python files in my submission:
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.
-
-You're reading it!
-
-There are four python files in my submission: `cam_cal.py` is used in camera calibration; `tracker.py` is for tracking the window search.
+`cam_cal.py` is used in camera calibration; `tracker.py` is for tracking the window search.
 
 `image_gen.py` and `video_gen.py` are extremely similar in that they include the same functions that were being applied.
 
