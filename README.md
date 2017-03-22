@@ -10,6 +10,7 @@ The goals / steps of this project are the following:
 * Determine the curvature of the lane and vehicle position with respect to center.
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
 ---
 
 #### 1. There are four python files in my submission:
@@ -21,7 +22,9 @@ The goals / steps of this project are the following:
 It is just of the convenience to process image and video separately.
 
 In my writeup, I will reference my code to the lines in `image_gen.py`.
+
 ___
+
 ### Camera Calibration
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
@@ -43,7 +46,9 @@ Original Image
 
 <img src="output_images/result1.jpg" width="250" />
 Undistorted Image
+
 ___
+
 ### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
